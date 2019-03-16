@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.ion-size {
+  font-size: 2rem;
+}
+
+.margin-sm {
+  margin: 10px;
+}
+
+.bg-oCard {
+  background-color: #f2f9ff;
+}
+
+.sticky-OChart {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
