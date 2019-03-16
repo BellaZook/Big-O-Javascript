@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import BigO_n_Chart from '../../svg/bigOChart';
+// import PropTypes from 'prop-types';
+import BigOChart from '../../svg/bigOChart';
 import './bigOChart.css';
 import OCard from '../../card';
-import ArrowRight from '../../icon/ArrowRight';
 import Shuffle from '../../icon/Shuffle';
 // To Do: switch chart side (right to left) on big screens
 
@@ -13,12 +12,12 @@ const TwoToTheN = () => <span>O(2<sup>n</sup>)</span>;
 const BigONChart = props => {
     return (
         <div>
-            <div className="container">
+            <div className="container container-margin">
                 <div className="row">
                     <div className="col-sm-12 col-md-6">
                         <div className="sticky-OChart">
                             <h3 className="text-center">Big O(n) Chart</h3>
-                            <BigO_n_Chart />
+                            <BigOChart />
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6">

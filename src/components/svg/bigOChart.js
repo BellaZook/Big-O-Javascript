@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './index.css';
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 const BigO_n_Chart = (props) => {
     return (
@@ -66,8 +66,8 @@ const BigO_n_Chart = (props) => {
     )
 }
 
-BigO_n_Chart.propTypes = {
+// BigO_n_Chart.propTypes = {
 
-}
+// }
 
 export default BigO_n_Chart

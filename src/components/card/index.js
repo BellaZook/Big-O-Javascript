@@ -1,8 +1,6 @@
 import React from 'react';
-import {
-    Card, CardHeader, CardFooter, CardBody,
-    CardTitle, CardText
-} from 'reactstrap';
+import PropTypes from 'prop-types'
+import { Card, CardBody, CardTitle, CardText } from 'reactstrap';
 import ArrowRight from '../icon/ArrowRight';
 
 const MainCard = (props) => {
@@ -28,5 +26,20 @@ const MainCard = (props) => {
         </div>
     );
 };
+
+MainCard.propTypes = {
+    title: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object,
+    ]),
+    operation1: PropTypes.string,
+    operation2: PropTypes.string,
+    children: PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.object,
+        PropTypes.array
+    ]),
+
+}
 
 export default MainCard;
