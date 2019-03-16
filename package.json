@@ -2,6 +2,7 @@
   "name": "big-o-javascript",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://BellaZook.github.io/Big-O-Javascript",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "prop-types": "^15.7.2",
