@@ -6,9 +6,9 @@ import ArrowRight from '../icon/ArrowRight';
 const MainCard = (props) => {
     return (
         <div>
-            <Card className="margin-sm">
+            <Card className="margin-bottom-sm">
                 <CardBody>
-                    <CardTitle tag="h4">{props.title}</CardTitle>
+                    <CardTitle tag="h5">{props.title}</CardTitle>
                     <CardText>
                         {props.children}
                     </CardText>
