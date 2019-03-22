@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from '../components/header';
-import BigONChart from '../components/subjects/bigO-n-Chart';
-import AppLinks from '../components/subjects/links';
-import ArrayStructure from '../components/subjects/array';
+import BigONChart from '../subjects/bigO-n-Chart';
+import AppLinks from '../subjects/links';
+import ArrayStructure from '../subjects/array';
 
 class App extends Component {
   render() {

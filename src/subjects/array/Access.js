@@ -1,5 +1,5 @@
 import React from 'react';
-import SubjectCard from '../../card/Subject';
+import SubjectCard from '../../components/card/Subject';
 // import PropTypes from 'prop-types';
 import { Alert } from 'reactstrap';
 

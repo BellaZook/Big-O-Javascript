@@ -1,10 +1,10 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import BigOChart from '../../svg/bigOChart';
+import BigOChart from '../../components/svg/bigOChart';
 import './bigOChart.css';
-import OCard from '../../card';
-import Shuffle from '../../icon/Shuffle';
-import Title from '../../title';
+import OCard from '../../components/card';
+import Shuffle from '../../components/icon/Shuffle';
+import Title from '../../components/title';
 // To Do: 
 //  switch chart side (right to left) on big screens
 //  map cards

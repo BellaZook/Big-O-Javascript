@@ -1,5 +1,5 @@
 import React from 'react'
-import SubjectCard from '../../card/Subject';
+import SubjectCard from '../../components/card/Subject';
 
 const Intro = props => {
     return (

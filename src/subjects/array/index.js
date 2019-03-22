@@ -3,8 +3,10 @@ import React from 'react'
 import TimeComplexity from './TimeComplexity';
 import ArrayAccess from './Access';
 import ArraySearch from './Search';
-import Title from '../../title';
+import Title from '../../components/title';
 import Intro from './Intro';
+import ArrayInsertion from './Insertion';
+import ArrayDeletion from './Deletion';
 
 const ArrayStructure = props => {
     return (
@@ -16,6 +18,8 @@ const ArrayStructure = props => {
                     <TimeComplexity />
                     <ArrayAccess />
                     <ArraySearch />
+                    <ArrayDeletion />
+                    <ArrayInsertion />
                 </div>
             </div>
         </div>

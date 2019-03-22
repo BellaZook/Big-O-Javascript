@@ -1,6 +1,6 @@
 import React from 'react'
-import TimeComplexityTable from '../../table/Complexity';
-import SubjectCard from '../../card/Subject';
+import TimeComplexityTable from '../../components/table/Complexity';
+import SubjectCard from '../../components/card/Subject';
 // import PropTypes from 'prop-types'
 
 const TimeComplexity = props => {
